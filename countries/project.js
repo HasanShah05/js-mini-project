@@ -24,7 +24,18 @@ let table = document.createElement('table')
 
         for (let i = 0; i < 6; i++) {
             if (countryCount == countries.length) break 
-            
+            let data = document.createElement('td')
+            data.textContent = countries[countryCount].toUpperCase()
+
+          data.style.paddingTop = '30px';
+          data.style.paddingBottom = '30px';
+          data.style.margin = '2px';
+          data.style.border = '1px #eeeef3 solid';
+          
+
+            row.appendChild(data)
+            countryCount++
+            table.appendChild(row)
         }
     }
 
