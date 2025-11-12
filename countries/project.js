@@ -31,6 +31,7 @@ let table = document.createElement('table')
           data.style.paddingBottom = '30px';
           data.style.margin = '2px';
           data.style.border = '1px #eeeef3 solid';
+          data.style.fontSize = '14px'
           
 
             row.appendChild(data)
