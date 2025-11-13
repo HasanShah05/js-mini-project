@@ -3,6 +3,7 @@ let h2 = document.querySelector('h2')
 let button = document.querySelector('button')
 let box = document.querySelector('#box')
 let cointainer = document.querySelector('.cointainer') 
+let msg = document.querySelector('.msg')
 
 function isPrime(num) {
     if (num <= 1) {
@@ -17,6 +18,13 @@ function isPrime(num) {
 }
 
 button.addEventListener('click', e => {
+
+    msg.textContent = ''
+    if (box.value === '') {
+        msg.textContent = 'Enter a Valid number'
+        msg.style.color = 'red'    
+        return
+    }
 
     let oldTable = cointainer.querySelector('table');
     if (oldTable) {
