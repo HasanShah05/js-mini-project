@@ -1,0 +1,21 @@
+h1, h2{
+    text-align: center;
+}
+.cointainer{
+    text-align: center;
+}
+button{
+    background-color: rgb(89, 172, 7);
+    color: white;
+    border: none;
+    width: 9rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+input[type="number"]{
+    height: 1.8rem;
+    width: 18rem;
+}
+input[type='number']:focus{
+    border: 3px solid greenyellow;
+}
