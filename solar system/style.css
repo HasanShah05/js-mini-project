@@ -16,10 +16,13 @@ body{
     align-items: center;
     margin-top: 2rem;
     gap: 1rem;
+    margin-left: 15rem;
 }
 .image{
     padding: 1rem;
 }
 .description{
     color: white;
+    background-color: grey;
+    padding: 2rem;
 }
