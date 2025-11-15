@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Solar System: Document Object Model:30 Days Of JavaScript</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+	<link rel="stylesheet" href="style.css">
+  </head>
 
-<head>
-	<title>Solar System: Document Object Model:30 Days Of JavaScript</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <h1>Calculate a weight of an object on a planet</h1>
 
-<body>
-	<header>
-		<h1>Calculate a weight of an object on a planet</h1>
-
+      <div class="valuetaker">
 		<input type="text" id="mass" placeholder="Mass in Kilogram" />
-		<select>
-			<option value='none'>--select planet-- </option>
+		<select id="my-select">
+		  <option value="none">--select planet--</option>
+				<option value="./images/earth.png">Earth</option>
+				<option value="./images/jupiter.png">Jupiter</option>
+				<option value="./images/mars.png">Mars</option>
+				<option value="./images/mercury.png">Mercury</option>
+				<option value="./images/moon.png">Moon</option>
+				<option value="./images/neptune.png">Neptune</option>
+				<option value="./images/pluto.png">Pluto</option>
+				<option value="./images/saturn.png">Saturn</option>
+				<option value="./images/uranus.png">Uranus</option>
+				<option value="./images/venus.png">Venus</option>
 		</select>
 		<button>Calculate weight</button>
+	  </div>
+    </header>
+    <main>
+      <div class="flex-container">
+        <div class="flex-item image">
+          <img src="./images/earth.png" id="image" class="planet-image" />
+        </div>
+        <div class="flex-item description"></div>
+      </div>
+    </main>
 
-	</header>
-	<main>
-		<div class="flex-container">
-			<div class="flex-item image">
-				<img src='./images/earth.png' class="planet-image" />
-			</div>
-			<div class="flex-item description"></div>
-
-		</div>
-
-
-	</main>
-
-
-
-
-
-	<script src="./scripts/main.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url('./images/galaxy.gif');
+}
+.valuetaker{
+    text-align: center;
+}
+.flex-container{
+    max-width: 1050px;
+    background-color: rgba(104, 106, 107, 0.489);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.image{
+    padding: 1rem;
+}
+.description{
+    color: white;
+}
