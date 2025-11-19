@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.cointainer{
+    width: 85%;
+    margin: auto;
+}
+h1{
+    font-size: 3.5rem;
+    letter-spacing: 2rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 12rem;
+}
+.box{
+     background-color: rgba(226, 225, 225, 0.202);
+     height: 10rem;
+     width: 14rem;
+     text-align: center;
+     border: 1px solid rgb(162, 160, 160);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+}
+.box:hover{
+    background-color: rgb(193, 191, 191);
+}
+p{
+    font-size: large;
+}
+.banner{
+    background: rgb(248, 206, 213);
+    height: 2rem;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+.icon {
+    color: #6c5ce7; 
+    font-size: 2.2rem;
+}
+.word {
+    display: inline-block;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+    transform: translateY(0);
+}
+.word.hide {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+.word.prepare {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: none; 
+}
+.techs{
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
