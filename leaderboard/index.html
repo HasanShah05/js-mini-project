@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+</head>
+<body class="p-0 m-0 flex justify-center items-center">
+    <div class=" m-auto">
+        <h1 class="text-center text-[24px] mb-4 mt-4">30 Days Of Javascript Challange Leaderboard</h1>
+        <form>
+            <input type="text" name="" id="fname" placeholder="First Name" class="input border border-pink-300 text-lg h-10 ml-2">
+            <input type="text" name="" id="lname" placeholder="Last Name" class="input border border-pink-300 text-lg h-10 ml-2">
+            <input type="text" name="" id="country" placeholder="Country" class="input border border-pink-300 text-lg h-10 ml-2">
+            <input type="number" name="" id="score" placeholder="Player Score" class="[appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none input border border-pink-300 text-lg h-10 ml-2"> 
+            <button value="submit" id="addplayer" class="bg-pink-200 border-none h-11 w-32 text-white ml-2 text-[18px]">Add Player</button>
+        </form>
+        <div class="row mt-4">
+
+                    <div class="col">
+
+                        <div class="d-flex justify-content-center align-items-center">
+
+                            <div class="w-100 screen">
+
+                                <div class="d-flex justify-between align-items-center">
+
+                                    <div id="leaderboard" class="w-full max-w-2xl mx-auto mt-8 space-y-4"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+</body>
+<script src="./script.js"></script>
+</html>
