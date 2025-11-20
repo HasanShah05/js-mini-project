@@ -9,7 +9,7 @@ function randomColor(){
 }
 
 function fontWeight(){
-    const weight = [1000,200,300,400,500]
+    const weight = [100,200,300,400,500]
     return weight[Math.floor(Math.random() * weight.length)]
 }
 
@@ -18,7 +18,7 @@ setInterval(() => {
     container.innerHTML = ''
 
     const heading = document.createElement('h1')
-    const text = '30 days of javascript'.split('')
+    const text = '30 days of javascript challange 2020 by asabeneh yetayeh'.split('')
 
     text.forEach(character => {
         const span = document.createElement('span')
